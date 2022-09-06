@@ -1,0 +1,98 @@
+/* navbar */
+
+.logout button:hover{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    /* border-radius: 3px; */
+}
+
+.nav-link:hover{
+    border-bottom: #00B5D8 3px solid;
+    margin-bottom: -3px;
+}
+
+.nav-link {
+    margin-left: 10px;
+}
+
+/* card fitur */
+
+.card {
+    border: 3px solid #00B5D8;
+    border-radius: 34px;
+    padding: 25.5px 0;
+}
+
+.fitur {
+    color: #00B5D8;
+    text-decoration: none;
+}
+
+.card:hover {
+    background-color: #00B5D8;
+    color: white;
+}
+
+/* akhir card fitur */
+
+/* card layanan */
+
+
+/* Css Login */
+
+.login {
+    background-color: #F5F5F5;
+    background-image: linear-gradient(to left, rgba(255,255,255,1), rgba(0,181,216,1));
+}
+
+.card-login {
+    align-items: center;
+    margin: 82px auto;
+    padding: 10px 5px;
+    background: #FFFFFF;
+    border: 2px solid #CCD5DF;
+    box-shadow: 0px 0px 4px #00B5D8;
+    border-radius: 60px;
+}
+
+/* css signup */
+.signup{
+    background-color: #F5F5F5;
+    background-image: linear-gradient(to left, rgba(255,255,255,1), rgba(0,181,216,1));
+}
+
+.card-signup {
+    align-items: center;
+    margin: 50px 100px;
+    padding: 1px 0px;
+    background: #FFFFFF;
+    border: 2px solid #CCD5DF;
+    box-shadow: 0px 0px 4px #00B5D8;
+    border-radius: 60px;
+}
+
+.f-profil {
+    border: 1px solid #333;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+/* fitur Mall Pelayan Publik */
+
+.card-mpp {
+    border: 3px solid #00B5D8;
+    border-radius: 34px;
+    padding: 15px 0px;
+}
+
+.card-mpp:hover {
+    background-color: #00B5D8;
+    color: white;
+}
+
+.fitur-mpp {
+    color: #00B5D8;
+    text-decoration: none;
+}
