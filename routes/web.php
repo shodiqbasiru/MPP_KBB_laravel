@@ -37,9 +37,11 @@ Route::Post('/logout', [LoginController::class, 'logout']);
 Route::get('/daftar', [SignupController::class, 'index'])->middleware('guest');
 Route::post('/daftar', [SignupController::class, 'store']);
 
-Route::get('/profil', function() {
-    return view('dashboard.profil');
-})->middleware('auth');
+
+Route::resource('/profil', DashboardProfilController::class)->middleware('auth');
+// Route::get('/profil', function() {
+//     return view('dashboard.profil');
+// })->middleware('auth');
 Route::get('/dashboard/bankdata', function() {
     return view('dashboard.bankdata');
 })->middleware('auth');
